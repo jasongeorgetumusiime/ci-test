@@ -1,0 +1,4 @@
+quart
+quart-schema
+hypercorn
+swagger_parser

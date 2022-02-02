@@ -1,0 +1,15 @@
+  [Unit]
+  Description=Kanika Services hypercorn service
+  After=nginx.service
+  StartLimitIntervalSec=0
+    
+  [Service]
+  Type=simple
+  Restart=always
+  RestartSec=1
+  User=root
+  WorkingDirectory=/app
+  ExecStart=/usr/local/bin/python -m hypercorn app:app
+    
+  [Install]
+  WantedBy=multi-user.targets
