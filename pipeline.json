@@ -1,0 +1,21 @@
+{
+  "application": {
+    "name": "Sample Quart Application",
+    "type": "python"
+  },
+  "build": {
+    "path": null,
+    "outputPath": null
+  },
+  "test": {
+    "enabled": true,
+    "path": null
+  },
+  "archive": {
+    "registry": "docker.io",
+    "repository": "jasongtumusiime/quart-app"
+  },
+  "deploy": {
+    "containerPort": 8090
+  }
+}
