@@ -16,6 +16,7 @@
     "repository": "jasongtumusiime/quart-app"
   },
   "deploy": {
-    "containerPort": 8090
+    "containerPort": 8090,
+    "exposedPort": 80
   }
 }
